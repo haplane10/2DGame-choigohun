@@ -38,6 +38,12 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Running", false);
         }
 
+        if (Input.GetAxis("Jump") > 0)
+        {
+            rigidbody.AddForce(Vector2.up * 10);
+        }
+
+        
 
         if (Input.GetKey(KeyCode.A))
         {
