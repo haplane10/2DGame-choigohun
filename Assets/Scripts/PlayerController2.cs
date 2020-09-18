@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController2 : MonoBehaviour
 {
     public Animator animator;
 
@@ -45,6 +45,7 @@ public class PlayerController : MonoBehaviour
         {
             isTile = false;
             rigidbody.AddForce(Vector2.up * jump);
+            animator.SetBool("Jumping", true);
         }
 
         if (Input.GetKey(KeyCode.A))
@@ -64,6 +65,7 @@ public class PlayerController : MonoBehaviour
         if (isTile == false && collision.gameObject.CompareTag("Tile"))
         {
             isTile = true;
+            animator.SetBool("Jumping", false);
         }
     }
 }
