@@ -11,6 +11,24 @@ TextureImporter:
   - first:
       213: -6136754738999075604
     second: EnemyAttack_2
+  - first:
+      213: 6624529810214927672
+    second: EnemyAttack_3
+  - first:
+      213: -1674323326823984730
+    second: EnemyAttack_4
+  - first:
+      213: -108830160152408783
+    second: EnemyAttack_5
+  - first:
+      213: -6029109162459882133
+    second: EnemyAttack_0
+  - first:
+      213: 4818934603314936319
+    second: EnemyAttack_1
+  - first:
+      213: -8917918082583860266
+    second: EnemyAttack_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -148,9 +166,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 2318
-        height: 2000
+        y: 1949
+        width: 2362
+        height: 1500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccc918c438c42fa00800000000000000
-      internalID: 788777011551247564
+      spriteID: b6d968b092d445ca0800000000000000
+      internalID: -6029109162459882133
       vertices: []
       indices: 
       edges: []
@@ -168,10 +186,10 @@ TextureImporter:
       name: EnemyAttack_1
       rect:
         serializedVersion: 2
-        x: 2318
-        y: 0
-        width: 2318
-        height: 2000
+        x: 2362
+        y: 1949
+        width: 2362
+        height: 1500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c22fb879369af50800000000000000
-      internalID: 6893150207206370456
+      spriteID: ff9bc6a6d7b40e240800000000000000
+      internalID: 4818934603314936319
       vertices: []
       indices: 
       edges: []
@@ -189,10 +207,10 @@ TextureImporter:
       name: EnemyAttack_2
       rect:
         serializedVersion: 2
-        x: 4636
-        y: 0
-        width: 2318
-        height: 2000
+        x: 4724
+        y: 1949
+        width: 2362
+        height: 1500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +218,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cecd34c241ed5daa0800000000000000
-      internalID: -6136754738999075604
+      spriteID: 6db6e87c0c03d3480800000000000000
+      internalID: -8917918082583860266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyAttack_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 2347
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83db8dd93ce0feb50800000000000000
+      internalID: 6624529810214927672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyAttack_4
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 200
+        width: 2362
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a191812ecb93c8e0800000000000000
+      internalID: -1674323326823984730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyAttack_5
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 171
+        width: 2362
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d4443cb8b5d7ef0800000000000000
+      internalID: -108830160152408783
       vertices: []
       indices: 
       edges: []

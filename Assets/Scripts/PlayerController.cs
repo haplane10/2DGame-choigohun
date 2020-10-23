@@ -30,21 +30,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float direction = Input.GetAxis("Horizontal");
+        animator.SetFloat("Direction", direction);
+
         if (direction != 0)
         {
             animator.SetBool("Running", true);
             rigidbody.velocity = new Vector2(speed * direction, rigidbody.velocity.y);
-
-
-            // 캐릭터 뒤돌기
-            if (direction > 0)
-            {
-                transform.localScale = new Vector3(1, 1, 1);
-            }
-            else
-            {
-                transform.localScale = new Vector3(-1, 1, 1);
-            }
         }
         else
         {
