@@ -44,13 +44,14 @@ public class PlayerController : MonoBehaviour
 
         if (isTile == true && Input.GetAxis("Jump") > 0)
         {
+            animator.SetTrigger("Jumping");
             isTile = false;
             rigidbody.AddForce(Vector2.up * jump);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            // 내용 입력
+            animator.SetTrigger("Attack");
         }
     }
 
@@ -65,11 +66,19 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    //private void OnCollisionStay2D(Collision2D collision)
-    //{
-    //    if (isTile == false && collision.gameObject.CompareTag("Tile"))
-    //    {
-    //        isTile = true;
-    //    }
-    //}
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Tile"))
+        {
+            animator.SetBool("isGround", true);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Tile"))
+        {
+            animator.SetBool("isGround", false);
+        }
+    }
 }

@@ -1,55 +1,19 @@
 fileFormatVersion: 2
-guid: 82b22939ec277594b8714510244586b2
+guid: 99a7598bb792d624e9c2ba9661db5ab2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7870276711496609559
-    second: PlayerRun_0
+      213: 7509530875129090719
+    second: PlayerDamage_0
   - first:
-      213: 1728719941392088379
-    second: PlayerRun_1
+      213: 5079138651521559614
+    second: PlayerDamage_1
   - first:
-      213: 5511062410843008217
-    second: PlayerRun_2
+      213: -967165424645827653
+    second: PlayerDamage_2
   - first:
-      213: 1354115375237695471
-    second: PlayerRun_3
-  - first:
-      213: 1024027348650785226
-    second: PlayerRun_0
-  - first:
-      213: -4003724678229262708
-    second: PlayerRun_1
-  - first:
-      213: -3122384291069951708
-    second: PlayerRun_2
-  - first:
-      213: -4171180265895828686
-    second: PlayerRun_3
-  - first:
-      213: -4522731149510019502
-    second: PlayerRun_4
-  - first:
-      213: -3909304355900387050
-    second: PlayerRun_5
-  - first:
-      213: -4608814311081262565
-    second: PlayerRun_6
-  - first:
-      213: 2216087602722939322
-    second: PlayerRun_7
-  - first:
-      213: -8049145941255185672
-    second: PlayerRun_4
-  - first:
-      213: 8745285394022837162
-    second: PlayerRun_5
-  - first:
-      213: 1337592270080915628
-    second: PlayerRun_6
-  - first:
-      213: -1524542105069606277
-    second: PlayerRun_7
+      213: -716282875992892953
+    second: PlayerDamage_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,7 +73,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -121,7 +85,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -133,19 +97,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -157,7 +109,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -169,7 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -183,12 +135,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerRun_0
+      name: PlayerDamage_0
       rect:
         serializedVersion: 2
         x: 0
         y: 878.5
-        width: 1537
+        width: 1555.5
         height: 878.5
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -197,19 +149,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac97d94b273163e00800000000000000
-      internalID: 1024027348650785226
+      spriteID: f92d5e13b86373860800000000000000
+      internalID: 7509530875129090719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerRun_1
+      name: PlayerDamage_1
       rect:
         serializedVersion: 2
-        x: 1537
+        x: 1555
         y: 878.5
-        width: 1537
+        width: 1555.5
         height: 878.5
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -218,61 +170,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8efda72e99ef68c0800000000000000
-      internalID: -4003724678229262708
+      spriteID: e3c26e071b9bc7640800000000000000
+      internalID: 5079138651521559614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerRun_2
-      rect:
-        serializedVersion: 2
-        x: 3074
-        y: 878.5
-        width: 1537
-        height: 878.5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4210486c7001ba4d0800000000000000
-      internalID: -3122384291069951708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerRun_3
-      rect:
-        serializedVersion: 2
-        x: 4611
-        y: 878.5
-        width: 1537
-        height: 878.5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 233e825e5adfc16c0800000000000000
-      internalID: -4171180265895828686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerRun_4
+      name: PlayerDamage_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0.5
-        width: 1537
+        width: 1555.5
         height: 878.5
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -281,19 +191,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fa1532a960bb4090800000000000000
-      internalID: -8049145941255185672
+      spriteID: bb312f8ab20f392f0800000000000000
+      internalID: -967165424645827653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerRun_5
+      name: PlayerDamage_3
       rect:
         serializedVersion: 2
-        x: 1537
+        x: 1555
         y: 0.5
-        width: 1537
+        width: 1555.5
         height: 878.5
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -302,50 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaba42a3bbe7d5970800000000000000
-      internalID: 8745285394022837162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerRun_6
-      rect:
-        serializedVersion: 2
-        x: 3074
-        y: 0.5
-        width: 1537
-        height: 878.5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca83b703515109210800000000000000
-      internalID: 1337592270080915628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerRun_7
-      rect:
-        serializedVersion: 2
-        x: 4611
-        y: 0.5
-        width: 1537
-        height: 878.5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7a2336680db7dae0800000000000000
-      internalID: -1524542105069606277
+      spriteID: 7e99fb1f4804f06f0800000000000000
+      internalID: -716282875992892953
       vertices: []
       indices: 
       edges: []
