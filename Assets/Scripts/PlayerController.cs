@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public new Rigidbody2D rigidbody;
 
     public bool isTile;
+    public float direction;
 
     //int A, B = 30, C = 70;
 
@@ -29,7 +30,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float direction = Input.GetAxisRaw("Horizontal");
+        direction = Input.GetAxisRaw("Horizontal");
         animator.SetFloat("Direction", direction);
 
         if (direction != 0)
@@ -60,7 +61,7 @@ public class PlayerController : MonoBehaviour
         if (raycastHit.collider != null)
         {
             isTile = true;
-            animator.SetInteger("Animation", 0);
+            animator.SetInteger("Animation", 1);
             Debug.Log("충돌되었습니다.");
         }
         else

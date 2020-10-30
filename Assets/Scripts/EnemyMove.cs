@@ -50,7 +50,7 @@ public class EnemyMove : MonoBehaviour
         }
         
         // 캐릭터 뒤돌기
-        if (direction < 0)
+        if (direction > 0)
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
