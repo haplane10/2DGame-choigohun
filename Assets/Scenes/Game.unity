@@ -729,8 +729,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 860186945}
-  speed: 6
-  jump: 50
+  speed: 3
+  jump: 20
   rigidbody: {fileID: 860186949}
   isTile: 0
 --- !u!50 &860186949
