@@ -29,7 +29,7 @@ public class ForPractise : MonoBehaviour
         }
 
         // 숙제 :: Factorial?    7!
-        
+        //for 
     }
 
     // Update is called once per frame
