@@ -28,8 +28,13 @@ public class ForPractise : MonoBehaviour
             Debug.Log("sum = " + sum);
         }
 
+        int fact = 1;
         // 숙제 :: Factorial?    7!
-        //for 
+        for (int i = 7; i >= 1; i--)//참 )
+        {
+           fact *= i;
+        }
+        Debug.Log($"fact : {fact}");
     }
 
     // Update is called once per frame

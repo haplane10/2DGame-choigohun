@@ -18,7 +18,8 @@ public class Weapon : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.gameObject.SetActive(false);
+        //collision.gameObject.SetActive(false);
+        collision.GetComponent<CharacterStat>().Damage(10);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
